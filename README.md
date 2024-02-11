@@ -5,7 +5,7 @@ Run the script as root or with sudo: sudo ./install_docker.sh.
 Also, We can download, make executable, and run an HTTPS script using a single command line in the terminal by chaining the commands together with the && operator.
 Root Privileges is requires
 
-curl -O https://kingtam.win/usr/uploads/script/install-docker.sh && chmod +x install-docker.sh && ./install-docker.sh
+curl -O https://github.com/boohere2023/scripts/blob/4e3fcd5ba1f874d3b54a95e9b6e5e8340b029b62/install_docker.sh && chmod +x install-docker.sh && ./install-docker.sh
 This command will download the script from the specified URL, make it executable, and then run it. If any of the commands fail, the subsequent commands will not be executed.
 
 Conclusion:
